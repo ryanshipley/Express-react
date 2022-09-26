@@ -55,7 +55,7 @@ mongoose.connection
 ////////////////////////////////
 // create a test route
 app.get("/", (req, res) => {
-    res.send("Where the moms at?");
+    res.send("hi");
 });
 
 // PEOPLE INDEX ROUTE
